@@ -47,7 +47,7 @@ public class CampaignManagmentController {
 			  mailList.add(new Mail(from, subject, to, content));
 		  }
 		  
-		  SendGrid sg = new SendGrid("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");
+		  //SendGrid sg = new SendGrid("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");
 		  Request request = new Request(); 
 		  try { 
 			  for(Mail mail:mailList) {
